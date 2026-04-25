@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://votre-username.github.io/votre-repo/sitemap.xml
+Sitemap: https://alainpaluku.github.io/p-br/sitemap.xml

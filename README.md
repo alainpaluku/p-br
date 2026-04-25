@@ -4,7 +4,7 @@ Guide complet sur les paiements en ligne en République Démocratique du Congo p
 
 ## 🚀 Démo en ligne
 
-Visitez la présentation : [GitHub Pages](https://votre-username.github.io/votre-repo/)
+Visitez la présentation : [GitHub Pages](https://alainpaluku.github.io/p-br/)
 
 ## 📋 Prérequis
 
@@ -15,8 +15,8 @@ Visitez la présentation : [GitHub Pages](https://votre-username.github.io/votre
 
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-username/votre-repo.git
-cd votre-repo
+git clone https://github.com/alainpaluku/p-br.git
+cd p-br
 
 # Installer les dépendances
 npm install
