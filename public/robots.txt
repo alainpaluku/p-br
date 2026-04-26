@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alainpaluku.github.io/p-br/sitemap.xml
+Sitemap: https://p-br.vercel.app/sitemap.xml

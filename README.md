@@ -4,7 +4,7 @@ Guide complet sur les paiements en ligne en République Démocratique du Congo p
 
 ## 🚀 Démo en ligne
 
-Visitez la présentation : [GitHub Pages](https://alainpaluku.github.io/p-br/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/alainpaluku/p-br)
 
 ## 📋 Prérequis
 
@@ -14,18 +14,14 @@ Visitez la présentation : [GitHub Pages](https://alainpaluku.github.io/p-br/)
 ## 🛠️ Installation
 
 ```bash
-# Cloner le repository
 git clone https://github.com/alainpaluku/p-br.git
 cd p-br
-
-# Installer les dépendances
 npm install
 ```
 
 ## 💻 Développement local
 
 ```bash
-# Lancer le serveur de développement
 npm run dev
 ```
 
@@ -34,73 +30,43 @@ L'application sera accessible sur `http://localhost:3000`
 ## 🏗️ Build
 
 ```bash
-# Créer un build de production
 npm run build
-
-# Prévisualiser le build
 npm run preview
 ```
 
-## 🚀 Déploiement sur GitHub Pages
+## 🚀 Déploiement sur Vercel
 
-### Méthode automatique (GitHub Actions)
+### Méthode 1 : Via l'interface Vercel (Recommandé)
 
-1. Activez GitHub Pages dans les paramètres du repository :
-   - Settings → Pages
-   - Source : GitHub Actions
+1. Créez un compte sur [Vercel](https://vercel.com)
+2. Cliquez sur "Add New Project"
+3. Importez votre repository GitHub
+4. Vercel détectera automatiquement Vite
+5. Cliquez sur "Deploy"
 
-2. Poussez vos changements sur la branche `main` :
-```bash
-git add .
-git commit -m "Deploy to GitHub Pages"
-git push origin main
-```
-
-Le workflow GitHub Actions se déclenchera automatiquement et déploiera votre site.
-
-### Méthode manuelle
+### Méthode 2 : Via CLI
 
 ```bash
-# Déployer manuellement
-npm run deploy
+npm i -g vercel
+vercel
 ```
 
-## 🎨 Technologies utilisées
+## 🎨 Technologies
 
 - React 19
 - TypeScript
 - Vite
 - Tailwind CSS 4
 - Motion (Framer Motion)
-- Lucide React (icônes)
-
-## 📝 Structure du projet
-
-```
-├── src/
-│   ├── components/
-│   │   ├── slides/      # Composants des slides
-│   │   └── ui/          # Composants UI réutilisables
-│   ├── App.tsx          # Composant principal
-│   ├── main.tsx         # Point d'entrée
-│   ├── types.ts         # Types TypeScript
-│   └── index.css        # Styles globaux
-├── public/              # Assets statiques
-└── dist/                # Build de production
-
-```
+- Lucide React
 
 ## 🎯 Fonctionnalités
 
-- Navigation au clavier (flèches gauche/droite, espace)
+- Navigation au clavier (flèches, espace)
 - Animations fluides
 - Design responsive
-- Indicateur de progression
-- Effets visuels modernes
-
-## 📄 Licence
-
-MIT
+- Lazy loading des slides
+- Code splitting optimisé
 
 ## 👤 Auteur
 
@@ -108,3 +74,7 @@ MIT
 - Website: [alainpaluku.com](https://alainpaluku.com)
 - Email: contact@alainpaluku.com
 - Company: [NEOSOFT DEVS](https://neosoft.dev)
+
+## 📄 Licence
+
+MIT
